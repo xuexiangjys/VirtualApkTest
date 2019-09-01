@@ -2,6 +2,13 @@
 
 滴滴的VirtualApk插件化使用演示
 
+## 演示demo下载
+
+[![](https://img.shields.io/badge/宿主apk-1.5M-blue.svg)](https://github.com/xuexiangjys/VirtualApkTest/blob/master/apk/com.xuexiang.virtualapktest_1.0.apk)
+
+[![](https://img.shields.io/badge/插件apk-300K-blue.svg)](https://github.com/xuexiangjys/VirtualApkTest/blob/master/apk/xqrcode_plugin.apk)
+
+注意：请将插件apk拷贝至sdcard下。
 
 ## 快速集成指南
 
@@ -65,6 +72,14 @@ virtualApk {
 ```
 
 ## 如何使用
+
+### 打包插件
+
+```
+./gradlew clean assemblePlugin
+```
+
+打包后的插件在`build/outputs/plugin`下。
 
 ### 加载插件
 
